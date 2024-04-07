@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+#body{
+    height:120vh;
+   background-color:darkgrey;
+    display: flex;
+    justify-content: center;
+    
+}
+#board{
+    background-color: white;
+    width:120vmin;
+    height:92vmin;
+    border:2x solid black;
+    display:grid;
+    grid-template-columns: repeat(10,3fr);
+    grid-template-rows: repeat(10,3fr);
+    margin-top: 27px;
+    
+    
+
+}
+
+.box{
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+   
+}
+
+#s1{
+    height: 500px;
+    width: 200px;
+    position:absolute;
+    top: 4%;
+    left: 31%;
+}
+#s2{
+    height:230px;
+    width:150px;
+    position: absolute;
+    top:50%;
+    left:59%;
+    transform: rotate(20deg);
+    
+}
+#s3{
+    height:220px;
+    width:60px;
+    position: absolute;
+    left:52%;
+    top:41%;
+    transform:translate(-50%,-50%) ;       
+}
+#s4{
+    height:500px;
+    width:60px;
+    position: absolute;
+    transform: scaleX(80%) scaleY(70%);
+    position: absolute;
+    top:30%;
+    left:30%;
+}
+#l1{
+    height:200px;
+    width:200px;
+    position: absolute;
+    left:37%;
+    top:4%;
+}
+#l2{
+    height:200px;
+    width:200px;
+    position: absolute;
+    left: 65%;
+    top:58%;
+    transform: rotate(9deg);
+}
+#dice{
+position: absolute;
+top:100%;
+left:50%;
+}
+.color_1{
+    background-color:aqua;
+}
+.color_2{
+    background-color: pink;
+}
+
+.p1{
+   width:20px;
+   height:20px;
+   border-radius: 100px;
+   background-color: red;
+   border: 2px solid black;
+  /* position: absolute;
+  left:22%;
+  top:90%;  */
+  transition:all linear 0.5s;
+  
+}
+
+.p2{
+    width:20px;
+   height:20px;
+   border-radius: 100px;
+   background-color:blue;
+   border: 2px solid black;
+  /* position: absolute;
+   top:90%;
+  left:24%;  */
+transition: all linear 0.5s;
+}
+#cont1{
+    position: absolute;
+top:660px;
+left:35%;
+border: 2px solid black;
+font-size: 30px;
+font-weight: 50px;
+}
+
+#cont2{
+    position: absolute;
+top:660px;
+left:61%;
+border:2px solid black;
+font-size: 30px;
+font-weight: 50px;
+}
+.tog12{
+background-color:#008631;
+box-shadow: 5px 5px  2px lightgray;
+}
+
